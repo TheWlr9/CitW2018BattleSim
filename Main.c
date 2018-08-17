@@ -9,10 +9,10 @@ int main(){
     char battle1[100];
     char battle2[100];
 
-    printf("Select a battle...");
+    printf("Select a battle... ");
     scanf("%s",battle1);
 
-    printf("Select the second battle...");
+    printf("Select the second battle... ");
     scanf("%s",battle2);
 
     printf("Army 1: %s\tArmy 2: %s",battle1,battle2);
