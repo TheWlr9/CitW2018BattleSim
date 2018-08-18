@@ -62,6 +62,7 @@ class Tiger(Animal):
 ####################################################
 class Vehicule(Equipment):
     # ATTRIBUTS
+    # Scale from 0-10
     speed= 0
     armor= 0
     attackPower= 0

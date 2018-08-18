@@ -3,7 +3,7 @@
 ####################################################
 #       INFRASTUCTURE
 ####################################################
-# Infastructures gove bonuses to the whole
+# Infastructures give bonuses to the whole
 class Infrasturcture():
     # ATTIBUTS
     buildings = []
@@ -29,6 +29,7 @@ class Building(Infrasturcture):
 
 class Deposit(Building):
     # ATTRIBUTS
+    # Ammo increase
     
 
     # CONSTRUCTOR
@@ -39,6 +40,7 @@ class Deposit(Building):
 
 class Camp(Building):
     # ATTRIBUTS
+    # Global speed +++
     
 
     # CONSTRUCTOR
@@ -49,6 +51,7 @@ class Camp(Building):
 
 class Bunker(Building):
     # ATTRIBUTS
+    # Armor +++
     
 
     # CONSTRUCTOR
@@ -59,6 +62,7 @@ class Bunker(Building):
 
 class Hospital(Building):
     # ATTRIBUTS
+    # Health +++
     
 
     # CONSTRUCTOR
@@ -69,6 +73,7 @@ class Hospital(Building):
 
 class Outpost(Building):
     # ATTRIBUTS
+    # Recon +++ ?
     
 
     # CONSTRUCTOR
