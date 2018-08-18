@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(){
+int main() {
     char battle1[100];
     char battle2[100];
 
