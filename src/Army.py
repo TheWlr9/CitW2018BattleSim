@@ -11,16 +11,24 @@ class Army():
     maximumpopulation = 1000
 
     # CONSTRUCTOR
-    def __init__(self, name):
+    def __init__(self, name, soldiers, infastructures, maxCost, maxPop):
         self.name = name
+        self.soldiers= soldiers
+        self.infastructures= infastructures
+        maximumCost= maxCost
+        maximumpopulation= maxPop
         print("Army " + name + " created")
 
     # METHODS
-    def checkCost(self):
+    # Added this method to control the formations
+    def formation(self, formation):
         pass
 
+    def checkCost(self):
+        return cost
+
     def checkPopulation(self):
-        pass
+        return population
 
     def createFromFile(self):
         pass

@@ -62,6 +62,9 @@ class Tiger(Animal):
 ####################################################
 class Vehicule(Equipment):
     # ATTRIBUTS
+    speed= 0
+    armor= 0
+    attackPower= 0
     
 
     # CONSTRUCTOR
@@ -78,6 +81,9 @@ class Car(Vehicule):
     # CONSTRUCTOR
     def __init__(self):
         print("Dog created")
+        super.speed= 8
+        super.armor= 5
+        super.attackPower= 1
     # METHODS
 
 
@@ -88,6 +94,9 @@ class Plane(Vehicule):
     # CONSTRUCTOR
     def __init__(self):
         print("Dog created")
+        super.speed= 10
+        super.armor= 4
+        super.attackPower= 3
     # METHODS
 
 
@@ -98,4 +107,7 @@ class Boat(Vehicule):
     # CONSTRUCTOR
     def __init__(self):
         print("Dog created")
+        super.speed= 5
+        super.armor= 4
+        super.attackPower= 5
     # METHODS
