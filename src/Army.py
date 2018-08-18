@@ -1,3 +1,8 @@
+# LIBRAIRIES
+from Soldier import Assassin, Knight, Ninja, Spartian
+from Infrastructure import Bunker, Camp, Deposit, Hospital, Outpost
+from Equipment import Dog, Horse, Tiger, Boat, Car, Plane
+
 class Army():
     # ATTRIBUTS
     name = ""
