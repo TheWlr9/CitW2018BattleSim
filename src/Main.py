@@ -2,8 +2,11 @@ from Army import Army
 
 print("Welcome to the Battle Simulation !\n")
 
-army1 = Army("Grrrrr")
-army2 = Army("Hooooo")
+army1Name= input("First army?")
+army2Name= input("Second_army?")
+
+army1 = Army(army1Name)
+army2 = Army(army2Name)
 
 
 

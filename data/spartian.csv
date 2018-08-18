@@ -1,1 +1,12 @@
 Spartian
+Soldiers:{
+    Weapon:Sword
+}
+Infastructure:{
+    // You can only have one
+    Building:Camp
+}
+Equipment:{
+    // This is where the extras will go.
+    
+}

@@ -25,4 +25,9 @@ class Army():
         return population
 
     def createFromFile(self, fileName):
-        pass
+        try: file= open(fileName,"r")
+        except:
+            print("Error, wrong file")
+            skip= True
+        if(not skip):
+            pass
