@@ -1,0 +1,14 @@
+CustomArmy
+Soldiers:{
+    Weapons:{
+
+    }
+}
+Infastructure:{
+    // You can only have one
+
+}
+Equipment:{
+    // This is where the extras will go.
+    
+}

@@ -5,10 +5,9 @@ from Infrastructure import Bunker, Camp, Deposit, Hospital, Outpost
 class Army():
     # ATTRIBUTS
     name = ""
+    # This stores all the soldier types and quantity
     soldiers = []
     infrastructures = []
-    maximumCost = 1000000
-    maximumpopulation = 1000
 
     # CONSTRUCTOR
     def __init__(self, name):
@@ -16,9 +15,6 @@ class Army():
         print("Army " + name + " created")
 
     # METHODS
-    # Added this method to control the formations
-    def formation(self, formation):
-        pass
 
     def checkCost(self):
         cost = -1
@@ -28,5 +24,5 @@ class Army():
         population = -1
         return population
 
-    def createFromFile(self):
+    def createFromFile(self, fileName):
         pass
