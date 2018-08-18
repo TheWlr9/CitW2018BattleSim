@@ -1,8 +1,6 @@
 # LIBRAIRIES
 from Weapon import Arc, Crossbow, Gun, Shotgun, Sword
-from Equipment import Animal, Vehicule
-from Animal import Horse, Dog, Tiger
-from Vehicule import Car, Plane, Boat
+from Equipment import Horse, Dog, Tiger, Car, Plane, Boat
 
 ####################################################
 #       SOLDIERS
