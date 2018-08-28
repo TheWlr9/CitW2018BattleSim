@@ -1,0 +1,16 @@
+CustomArmy
+Soldiers:{
+    Weapons:Shotgun
+}
+Infastructure:{
+    // You can only have one
+    Building:Hospital
+}
+Equipment:{
+    // This is where the extras will go.
+
+}
+Population:{
+    //Ths is where the number of things will go
+    Soldiers:10
+}
